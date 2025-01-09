@@ -5,7 +5,7 @@ The `semantic_checker_api.py` file sets up an API using FastAPI to compute seman
 
 - **Imports**: The script imports necessary libraries such as TensorFlow, Pandas, NumPy, FastAPI, and Pydantic.
 
-- **Model Loading**: The Universal Sentence Encoder model is loaded using TensorFlow's `tf.saved_model.load()` function.
+- **Model Loading**: The Universal Sentence Encoder model by Google is loaded using TensorFlow's `tf.saved_model.load()` function.
 
 - **CORS Middleware**: Cross-Origin Resource Sharing (CORS) middleware is configured to allow requests from specified origins, facilitating interaction with the API from different domains.
 
